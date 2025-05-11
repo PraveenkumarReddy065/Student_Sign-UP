@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Sign-Up</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h2>Student Sign-Up</h2>
+   <form id="signup-form" onsubmit="return previewForm(event)">
+  <label>Name:</label>
+  <input type="text" id="name" required placeholder="Enter your Name">
+
+  <label>Email:</label>
+  <input type="email" id="email" required placeholder="Enter your Email ID">
+
+  <label>Password:</label>
+  <input type="password" id="password" required placeholder="Enter your Password">
+
+  <button type="submit">Preview</button>
+  <button type="button" onclick="window.location.href='records.html'">Show Sign-Up Records</button>
+</form>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
